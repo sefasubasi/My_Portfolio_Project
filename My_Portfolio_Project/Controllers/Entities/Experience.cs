@@ -1,0 +1,12 @@
+﻿namespace My_Portfolio_Project.Controllers.Entities
+{
+    public class Experience
+    {
+        public int ExperienceId { get; set; }
+        public string Title { get; set; }
+        public string CompanyName { get; set; }
+        public string Description { get; set; }
+        public string CategoryName { get; set; }
+        public string IsActive { get; set; }
+    }
+}
