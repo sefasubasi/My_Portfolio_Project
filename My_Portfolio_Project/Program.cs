@@ -25,5 +25,13 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+app.UseEndpoints(endpoints =>
+{
+    app.MapControllerRoute(
+     name: "areas",
+     pattern: "{area:exists}/{controller=AdminLayout}/{action=Index}/{id?}");
+});
+    
+
 
 app.Run();
