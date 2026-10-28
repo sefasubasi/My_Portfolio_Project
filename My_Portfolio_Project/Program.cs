@@ -1,7 +1,12 @@
+using My_Portfolio_Project.Contex;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+builder.Services.AddDbContext<PortfolioContext>();
 
 var app = builder.Build();
 

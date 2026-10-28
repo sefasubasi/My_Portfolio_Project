@@ -1,4 +1,4 @@
-﻿namespace My_Portfolio_Project.Controllers.Entities
+﻿namespace My_Portfolio_Project.Entities
 {
     public class HeroTitle
     {

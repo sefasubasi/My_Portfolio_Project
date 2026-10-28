@@ -11,8 +11,8 @@ using My_Portfolio_Project.Contex;
 namespace My_Portfolio_Project.Migrations
 {
     [DbContext(typeof(PortfolioContext))]
-    [Migration("20261027181731_mig2")]
-    partial class mig2
+    [Migration("20261028160354_mg3")]
+    partial class mg3
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -156,11 +156,11 @@ namespace My_Portfolio_Project.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SebderEmail")
+                    b.Property<string>("SendDate")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SendDate")
+                    b.Property<string>("SenderEmail")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

@@ -1,4 +1,4 @@
-﻿namespace My_Portfolio_Project.Controllers.Entities
+﻿namespace My_Portfolio_Project.Entities
 {
     public class Contact
     {
@@ -7,6 +7,6 @@
         public string Description { get; set; }
         public string Email { get; set; }
         public string Location { get; set; }
-        public int PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }

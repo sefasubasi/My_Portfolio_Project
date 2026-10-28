@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using My_Portfolio_Project.Controllers.Entities;
+using My_Portfolio_Project.Entities;
 
 namespace My_Portfolio_Project.Contex
 {
